@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+// bloco cadastro de informações //
+int main(){
+
+
+	
+char nome [20];
+char endereco [20];
+char cpf [15];
+char rg [15];
+int conta;
+char pais [20];
+char profissao;
+int renda;
+
+printf("digite nome");
+scanf("%c", &nome);
+printf("digite rua ");
+scanf("%c",&endereco);
+printf("digite o seu cpf");
+scanf("%c",&cpf);
+printf("digite  seu rg");
+scanf("%c",&rg);
+printf("digite os numeros da conta ");
+scanf("%f",&conta);
+printf("digite nome dos seus pais ");
+scanf("%c",&pais);
+printf("digite sua profissao");
+scanf("%c",&profissao);
+print("digite valor da sua renda");
+scanf("%f",& renda);
+
+
+//  console, informações  do caixa eletronico //
+int main(){
+
+
+
+	
+ 	char opcao;
+ 	printf("informe uma opção : \n");
+ 	printf("a - saldo da conta. \n");
+ 	printf("b - extrato da conta. \n ");
+ 	printf("c - limite da conta. \n");
+ 	printf("d - alteração de senha. \n");
+ 	printf("e - tefefone de sac. \n");
+ 	printf("f - ajuda. \n ");
+ 	scanf("%c", &opcao);
+ 
+	 
+ 
+ 	
+	
+ 	if(opcao =='a'){
+ 		printf("seu saldo e.....");	
+	}else if (opcao == 'b'){
+		printf("extrato da conta.....");
+	}else if (opcao =='c'){
+		printf("seu limite e ....");
+	}else if (opcao == 'd'){
+		printf("redefinir senha....");
+	}else if (opcao == 'e'){
+	  printf("entrar em contato no numero 3003-8088...");
+    }else if(opcao == 'f'){
+      printf("outras opções....");}
+      
+	  return 0;
+}
